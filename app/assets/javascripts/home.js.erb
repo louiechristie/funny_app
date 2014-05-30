@@ -18,7 +18,7 @@ FunnyPictures.hideAll = function() {
   FunnyPictures.paulLayer.hide();
   FunnyPictures.samLayer.hide();
   FunnyPictures.alexLayer.hide();
-  FunnyPictures.backgroundLayer.show();
+  FunnyPictures.backgroundLayer.hide();
 }
 
 FunnyPictures.createLayer = function(layer, stage, url) {
@@ -34,7 +34,8 @@ FunnyPictures.createLayer = function(layer, stage, url) {
     });
     layer.add(background_k);
     stage.add(layer);
-    background_k.moveToBottom();
+    layer.moveToBottom();
+    layer.draw();
   };
 };
 
