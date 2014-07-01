@@ -28,3 +28,7 @@ header {
   display: inline-block;
   vertical-align: top;
 }
+#people:hover, button {
+  cursor: pointer; 
+  cursor: hand;
+}
