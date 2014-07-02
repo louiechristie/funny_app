@@ -77,16 +77,16 @@ FunnyPictures.setup = function() {
   });
   
 
-  FunnyPictures.createLayer(FunnyPictures.danLayer, stage, '/assets/dan.png');
-  FunnyPictures.createLayer(FunnyPictures.hanaLayer, stage, '/assets/hana.png');
-  FunnyPictures.createLayer(FunnyPictures.paulLayer, stage, '/assets/paul.png');
-  FunnyPictures.createLayer(FunnyPictures.samLayer, stage, '/assets/sam.png');
-  FunnyPictures.createLayer(FunnyPictures.pavlingLayer, stage, '/assets/pavling.png');
-  FunnyPictures.createLayer(FunnyPictures.alexLayer, stage, '/assets/alex.png');
-  FunnyPictures.createLayer(FunnyPictures.backgroundLayer, stage, '/assets/silhouette.png');
+  FunnyPictures.createLayer(FunnyPictures.danLayer, stage, 'images/dan.png');
+  FunnyPictures.createLayer(FunnyPictures.hanaLayer, stage, 'images/hana.png');
+  FunnyPictures.createLayer(FunnyPictures.paulLayer, stage, 'images/paul.png');
+  FunnyPictures.createLayer(FunnyPictures.samLayer, stage, 'images/sam.png');
+  FunnyPictures.createLayer(FunnyPictures.pavlingLayer, stage, 'images/pavling.png');
+  FunnyPictures.createLayer(FunnyPictures.alexLayer, stage, 'images/alex.png');
+  FunnyPictures.createLayer(FunnyPictures.backgroundLayer, stage, 'images/silhouette.png');
 
-  FunnyPictures.createForegroundLayer(FunnyPictures.mustacheLayer, stage, '/assets/mustache.png', 100, 38);
-  FunnyPictures.createForegroundLayer(FunnyPictures.hatLayer, stage, '/assets/top_hat.png', 190, 162)
+  FunnyPictures.createForegroundLayer(FunnyPictures.mustacheLayer, stage, 'images/mustache.png', 100, 38);
+  FunnyPictures.createForegroundLayer(FunnyPictures.hatLayer, stage, 'images/top_hat.png', 190, 162)
 
   FunnyPictures.hideAll();
   FunnyPictures.backgroundLayer.show();

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Madhat - A Funny Pictures Website</title>
+  
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script src="jquery-1.11.1.js"></script>
+  <script src="kinetic-v5.1.0.js"></script>
+  <script src="funny-pictures.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>Madhat - A Funny Pictures Website</h1>
+  </header>
+  
+  <div id="main">
+    <h2>Choose a picture</h2>
+    <div id="people">
+      <image id="background" src="images/silhouette.png" width='100' height='100'>
+      <image id="pavling" src="images/pavling.png" width='100' height='100'>
+      <image id="dan" src="images/dan.png" width='100' height='100'>
+      <image id="hana" src="images/hana.png" width='100' height='100'>
+      <image id="paul" src="images/paul.png" width='100' height='100'>
+      <image id="sam" src="images/sam.png" width='100' height='100'>
+      <image id="alex" src="images/alex.png" width='100' height='100'>
+    </div>
+
+    <h2>Apply a hat/mustache</h2>
+    <button id="mustache">
+      mustache
+    </button>
+    <button id="hat">
+      hat
+    </button>
+    <br />
+
+    <div id="container"></div>
+    <br />
+
+    <p>Click generate image then right click on image to save it.</p>
+    <button id="generate">
+      Generate image
+    </button>
+    <br />
+
+    <div id="savable_image">
+      <img id="canvasImg" alt="">
+    </div>
+  </div>
+
+</body>
+</html>
